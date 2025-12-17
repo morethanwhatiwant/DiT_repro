@@ -1,0 +1,19 @@
+name: dit-repro
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - numpy
+  - pillow
+  - tqdm
+  - pip:
+      - diffusers
+      - transformers
+      - accelerate
+      - clean-fid
+      - torch-fidelity
